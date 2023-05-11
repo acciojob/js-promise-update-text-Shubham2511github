@@ -8,4 +8,4 @@ p.then(value){
 	const val = value;
 }
 let div = document.getElementById("output");
-div.innerText = val;
+div.innerContent = val;
