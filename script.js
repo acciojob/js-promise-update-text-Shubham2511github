@@ -5,7 +5,7 @@ let p = new Promise((resolve, reject)=>{
 	}1000);
 })
 p.then(value){
-	const val = value;
+	let val = value;
 }
 let div = document.getElementById("output");
 div.textContent = val;
